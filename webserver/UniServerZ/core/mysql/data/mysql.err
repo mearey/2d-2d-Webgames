@@ -1,0 +1,9 @@
+2023-07-03T23:07:40.978220Z 0 [Warning] [MY-010918] [Server] 'default_authentication_plugin' is deprecated and will be removed in a future release. Please use authentication_policy instead.
+2023-07-03T23:07:40.978252Z 0 [System] [MY-010116] [Server] C:\Users\meare\Desktop\3DWebGame\webserver\UniServerZ\core\mysql\bin\mysqld_z.exe (mysqld 8.0.31) starting as process 21628
+2023-07-03T23:07:41.006285Z 0 [Warning] [MY-010075] [Server] No existing UUID has been found, so we assume that this is the first time that this server has been started. Generating a new UUID: 690b47b4-19f6-11ee-88b9-244bfee9f520.
+2023-07-03T23:07:41.015361Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2023-07-03T23:07:41.481083Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2023-07-03T23:07:42.199864Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2023-07-03T23:07:42.200330Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2023-07-03T23:07:42.304929Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2023-07-03T23:07:42.305118Z 0 [System] [MY-010931] [Server] C:\Users\meare\Desktop\3DWebGame\webserver\UniServerZ\core\mysql\bin\mysqld_z.exe: ready for connections. Version: '8.0.31'  socket: ''  port: 3306  MySQL Community Server - GPL.

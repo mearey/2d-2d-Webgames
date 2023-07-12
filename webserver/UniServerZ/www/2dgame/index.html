@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Impact Game</title>
+	<style type="text/css">
+		@font-face {
+			font-family: myFirstFont;
+			src: url(./media/slkscr.ttf);
+		}
+
+		html,body {
+			background-color:#2060aa;
+			color: #00000081;
+			font-family: helvetica, arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			font-family:myFirstFont;
+			font-size: 1vw;
+			font-smooth: never;
+			-webkit-font-smoothing : none;
+		}
+
+		menu, img {
+			border-style: solid;
+			border-width: 3px;
+			border-radius: 16px;
+			border-color: #75522a;
+			width: 20%;
+			height: 50%;
+			left: 39%;
+			background-color:#b58042;
+		}
+
+		bottommenu {
+			border-style: solid;
+			border-width: 3px;
+			border-radius: 16px;
+			border-color: #75522a;
+			position: absolute;
+			width: 60%;
+			left:20%;
+			height: 15%;
+			bottom: 0%;
+			background-color: #b58042;
+		}
+
+		button, img {
+			color: #00000081;
+			margin: 25px;
+			font-size: 1vw;
+			font-family:myFirstFont;
+		}
+		::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+			color: #00000081;
+			opacity: 1; /* Firefox */
+		}
+		input {
+			color: #00000081;
+			font-size: 1vw;
+			font-family:myFirstFont;
+			background-color: #2573cc;
+			height: 32px;
+			border-style: solid;
+			border-width: 3px;
+			border-radius: 8px;
+			border-color: #75522a;
+		}
+		
+
+		poolselect {
+			border-style: solid;
+			border-width: 3px;
+			border-radius: 16px;
+			border-color: #75522a;
+			position: absolute;
+			width: 50%;
+			height: 500%;
+			bottom: 0%;
+			left:25%;
+			background-color: #b58042;
+		}
+		button {
+			background-color: #2573cc;
+			height: 32px;
+			border-style: solid;
+			border-width: 3px;
+			border-radius: 8px;
+			border-color: #75522a;
+		}
+
+		#container canvas, #overlay {
+			position: absolute;
+			width: 20%;
+			height: 50%;
+			left: 39%;
+		}
+				
+		#canvas {
+			position: absolute;
+			left: 0;
+			right: 0;
+			top: 0;
+			bottom: 0;
+			margin: auto;
+			cursor: url('media/Cursor.png'), auto;
+		}
+	</style>
+	<script type="text/javascript" src="lib/game/scripts/breedsharks.js"></script>
+	<script type="text/javascript" src="lib/game/scripts/openpools.js"></script>
+	<script src="https://unpkg.com/merge-images"></script>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script type="text/javascript" src="lib/impact/impact.js"></script>
+	<script type="text/javascript" src="lib/game/main.js"></script>
+</head>
+<body>
+	<canvas id="canvas" style="top:-100px; position:absolute;"></canvas>
+	<bottommenu class="bottommenu" id="bottommenu">
+		<button id="openpoolsbutton" onclick="openpools()">shark pools</button>
+	</bottommenu>
+</body>
+</html>
